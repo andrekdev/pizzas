@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza's</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="src/img/pizza-frango.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="src/style/style.css" />
+  </head>
+  <body>
+    <header class="header-pizzaria">
+      <h1>Pizza's</h1>
+      <button class="atendimento-usuario">atendimento online</button>
+    </header>
+    <nav class="navbar-pizza">
+      <img src="src/img/pizza-frango.png" alt="logo-pizza" style="width: 80px"/>
+      <div class="grupo-links-nav">
+        <a href="#" class="fa fa-map-marker">
+          São Paulo <br />
+          <span style="font-size: 11px">R. Balan Sarola</span></a>
+        <a href="#" class="fa fa-close" style="color: red">
+          Fechado <br />
+          <span style="font-size: 11px; color: #006491">Abre as 6:00</span></a>
+      </div>
+      <i class="fa fa-phone"> Ligar</i>
+    </nav>
+    <div class="grade">
+      <div class="carrinho-template">
+        <div class="root"></div>
+      </div>
+      <div class="formularioPedido">
+        <span class="closeForm" title="Fechar PopUp">X</span>
+        <div class="formulario">
+          <form class="formularioCompraFinalizar">
+            <label class="fa fa-user-o"> Seu Nome:</label>
+            <input type="text" class="nome" placeholder="insira aqui" />
+            <label class="fa fa-volume-control-phone"> Seu Numero:</label>
+            <input type="number" class="numero" placeholder="insira aqui" />
+            <label class="fa fa-map-marker"> Seu endereço:</label>
+            <input type="text" class="endereco" placeholder="insira aqui" />
+            <button class="btnFormulario" type="submit">Confirmar</button>
+          </form>
+        </div>
+      </div>
+      <section class="secao-produtos">
+        <div class="sidebar">
+          <p class="count">0</p>
+          <div class="head"><p>Meu carrinho</p></div>
+          <div class="carrinhoItem">
+            Nenhum produto no carrinho <br />
+            clique no '+' para adicionar ao carrinho
+          </div>
+          <div class="foot">
+            <h3>Total:</h3>
+            <h2 class="total">R$00.00</h2>
+<div class="carrinhoComItem"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="src/main/app.js"></script>
+</html>

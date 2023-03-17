@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f0f8ff;
+  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.header-pizzaria {
+  width: 100%;
+  background-color: #006491;
+  height: 40px;
+  color: #dadada;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-pizzaria:hover {
+  color: #ffffff;
+}
+.navbar-pizza {
+  background-color: #ffffff;
+  height: 56px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.fa-phone {
+  padding: 20px;
+  color: #006491;
+}
+
+.grupo-links-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.atendimento-usuario {
+  width: 360px;
+  border: none;
+  border-radius: 6px;
+}
+a {
+  text-decoration: none;
+  padding: 20px;
+  color: #006491;
+}
+.carrinho-template {
+  width: 470px;
+  margin-top: 40px;
+}
+.secao-produtos {
+  width: 500px;
+  margin-top: 90px;
+}
+/**/
+.root {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.sidebar {
+  width: 90%;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+.head {
+  background-color: #545451;
+  border-radius: 3px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+  padding: 10px 0px;
+  border-top: 1px solid #333;
+}
+.carrinhoItem {
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #aaa;
+}
+.btnComprar {
+  background-color: #dadada;
+  border: none;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 10px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ff44003c;
+  border-radius: 5px;
+  padding: 5px;
+}
+.img-box {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imagens {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: cover;
+  object-position: center;
+}
+.rowimg {
+  max-height: 43px;
+}
+.grade {
+  display: flex;
+  justify-content: space-around;
+}
+.carrinho-template {
+  overflow: visible;
+}
+.formularioPedido {
+  position: fixed;
+}
+.formularioCompraFinalizar {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+input {
+  border: none;
+  background-color: rgb(211, 211, 211);
+  border-radius: 4px;
+  padding: 10px;
+  width: 390px;
+}
+.btnFormulario {
+  border: none;
+  background-color: rgb(211, 211, 211);
+  border-radius: 4px;
+  padding: 10px;
+}
+.btnFormulario:hover {
+  background-color: rgb(182, 181, 181);
+}
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 600px;
+  border-radius: 19px;
+  background-color: #00639175;
+  font-size: 19px;
+}
+.closeForm {
+  background-color: #f0f8ff;
+  width: 3%;
+  border-radius: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formularioPedido {
+  visibility: hidden;
+}
+.closeForm:hover {
+  color: #dc143c;
+}
+.atendimento-chat {
+  display: grid;
+  justify-content: center;
+  height: 60vh;
+}
+.mensagem-bot {
+  width: 300px;
+  height: 20px;
+  background-color: #fff;
+  margin-top: 170px;
+  padding: 20px;
+  border-radius: 9px;
+}
+.mensagem-cliente {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 9px;
+  width: 300px;
+}
+.botao-Cliente {
+  border-radius: 9px;
+  margin: 10px;
+  border: none;
+  background-color: #aaa;
+  padding: 10px;
+  display: flex;
+}
+.botao-Cliente:hover {
+  background-color: #e6e6e6;
+}
+.inputTextDigitar {
+  width: 320px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atendimento ao Cliente</title>
+    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="atendimento-chat">
+    <div class="mensagem-bot">
+        <div class="fa fa-group mensagem" style="font-size:18px;"> Olá, o que podemos ajudar?</div>
+    </div>
+    <div class="inputTextClient">
+    </div>
+    <div class="mensagem-cliente">
+        <div class="mensagem-do-cliente">
+            <button class="fa fa-universal-access botao-Cliente" onclick="pedidoCliente()"> Meu pedido</button>
+            <button class="fa fa-universal-access botao-Cliente" onclick="pedidoErrado()"> Pedido errado</button>
+            <button class="fa fa-universal-access botao-Cliente" onclick="reclamacaoCliente()"> Reclamação</button>
+            <button class="fa fa-universal-access botao-Cliente" onclick="feedBackCliente()"> FeedBack</button>
+            <a href="index.html" style="display: flex; justify-content: end; align-items: center;">Voltar</a>
+        </div>
+    </div>
+</div>
+<script src="src/main/app-atendimento.js"></script>
+</body>
+</html>
